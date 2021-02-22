@@ -1,0 +1,70 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 2000px;
+    overflow-x: hidden;
+    font-family: "Monument Extended";
+    background: #0F0F0F;
+}
+@font-face {
+    font-family: "Monument Extended";
+    src: url(./MonumentExtended-Ultrabold.otf) format("truetype");
+}
+.container {
+    max-width: 600px;
+    margin: 200px auto;
+    width: 90%;
+    padding: 200px 0;
+    position: relative;
+}
+.wrapper {
+    max-width: 600px;
+    padding: 200px 0;
+
+}
+.parallax-img {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./paul-murphy-Ut9yic62qLE-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.text {
+    color: #fff;
+    margin: 0;
+    font-size: 84px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: -250%;
+    transform: translateY(-50%);
+    z-index: 1;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+.text.text-dark {
+    color: #0F0F0F;
+    -webkit-text-stroke: 1px white;
+}
+.text span {
+    position: relative;
+    display: block;
+}
+.section, .section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0F0F0F;
+}
+.img-two {
+    z-index: 2;
+    margin-left: 300px;
+}
